@@ -8,7 +8,7 @@ export default function LoginView(){
             <button 
                 onClick={()=>signIn('google')}
                 type="button"
-                className="primary"
+                className="btn"
             >
                     Login
             </button>

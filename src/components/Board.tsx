@@ -54,7 +54,7 @@ export default function Board({ id, name }: { id: string, name: string }) {
                 <ClientSideSuspense fallback={<div>Loading...</div>}>
                     {() => (
                         <>
-                            <div className="flex gap-2 justify-between mb-4">
+                            <div className="flex flex-wrap gap-2 justify-between mb-4">
                                 <div>
                                     {!renameMode && <h1 className="text-2xl" onClick={() => setRenameMode(true)}>{name}</h1>}
                                     {renameMode && (

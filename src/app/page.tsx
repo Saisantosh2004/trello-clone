@@ -19,7 +19,7 @@ export default async function Home() {
     }
 
     return (
-      <div>
+      <div className="">
         <h1 className="text-4xl mb-4">Your Boards...</h1>
 
         <Boards/>
